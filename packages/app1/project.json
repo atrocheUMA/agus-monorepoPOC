@@ -2,6 +2,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/app1/src",
   "projectType": "application",
+  "version":"1.0.0",
   "targets": {
     "build": {
       "executor": "@nrwl/node:webpack",
