@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mono-poc/library-a": ["packages/library-a/src/index.ts"],
+      "@mono-poc/library-b": ["packages/library-b/src/index.ts"],
+      "@mono-poc/library-shared": ["packages/library-shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
