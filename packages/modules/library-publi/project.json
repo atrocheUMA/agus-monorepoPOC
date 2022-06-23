@@ -28,6 +28,24 @@
         "main": "packages/modules/library-publi/src/index.ts",
         "assets": ["packages/modules/library-publi/*.md"]
       }
+    },
+    "release": {
+      "builder": "@nrwl/workspace:run-commands",
+      "options": {
+        "commands": [
+          "cd package/module/library-publi && npm version {args.version}",
+          {
+            "command": "ng build library-publi --prod",
+            "forwardAllArgs": false
+          },
+          {
+            "command": "cd dist/module/library-publi && npm publish",
+            "forwardAllArgs": false
+          }
+        ],
+        "cwd": "./",
+        "parallel": false
+      }
     }
   },
   "tags": []

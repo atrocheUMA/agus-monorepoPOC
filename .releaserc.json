@@ -25,6 +25,9 @@
             "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
         }
         }],
-        "@semantic-release/release-notes-generator"
+        "@semantic-release/release-notes-generator",
+        ["@semantic-release/exec", {
+            "publishCmd": "nx run affected --target=release --args=\"--version=${nextRelease.version}\""
+          }]
     ]
 }
