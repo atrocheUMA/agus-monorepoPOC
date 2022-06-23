@@ -1,5 +1,10 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "app1": "packages/apps/app1",
+    "library-publi": "packages/modules/library-publi",
+    "library-publi2": "packages/modules/library-publi2",
+    "mylibrary": "packages/modules/mylibrary"
+  }
 }

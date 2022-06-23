@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monorepo/mylibrary": ["packages/modules/mylibrary/src/index.ts"],
+      "@uma/lib1": ["packages/modules/library-publi/src/index.ts"],
+      "@uma/lib2": ["packages/modules/library-publi2/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -13,9 +13,10 @@
   },
   "tasksRunnerOptions": {
     "default": {
-      "runner": "nx/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "accessToken": "NzBlMzM5NGUtMjYxYi00NzRmLTgxOWUtYjZiZGQwMDIzY2FlfHJlYWQtd3JpdGU="
       }
     }
   },
@@ -25,7 +26,8 @@
     }
   },
   "workspaceLayout": {
-    "appsDir": "packages",
-    "libsDir": "packages"
-  }
+    "appsDir": "packages/apps",
+    "libsDir": "packages/modules"
+  },
+  "defaultProject": "app1"
 }
