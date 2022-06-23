@@ -1,6 +1,6 @@
 {
     "branches": ["main", "testing"],
     "plugins": ["@semantic-release/commit-analyzer", "@semantic-release/release-notes-generator","@semantic-release/npm",["@semantic-release/exec", {
-      "publishCmd": "nx run affected --target=release --args=\"--version=${nextRelease.version}\""
+      "publishCmd": "console.log('executed')"
     }]]
   }
