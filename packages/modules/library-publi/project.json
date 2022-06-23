@@ -2,6 +2,7 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/modules/library-publi/src",
   "projectType": "library",
+  "version":"0.0.1",
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
@@ -33,7 +34,7 @@
       "builder": "@nrwl/workspace:run-commands",
       "options": {
         "commands": [
-          "cd package/module/library-publi && npm version {args.version}",
+          "cd package/modules/library-publi && npm version {args.version}",
           {
             "command": "ng build library-publi --prod",
             "forwardAllArgs": false
