@@ -1,3 +1,3 @@
 export function libraryPubli(): string {
-  return 'library-publi2';
+  return 'library-publi3';
 }
