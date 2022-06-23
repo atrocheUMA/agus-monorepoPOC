@@ -1,4 +1,4 @@
-import {mylibrary} from '@monorepo/mylibrary'
+import {libraryPubli} from '@uma/lib1'
 
 console.log('Hello World!');
-console.log(mylibrary())
+console.log(libraryPubli())
