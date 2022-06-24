@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/atrocheUMA/agus-monorepoPOC/compare/@uma/library-a@1.0.0...@uma/library-a@1.1.0) (2022-06-24)
+
+### :sparkles: Features
+
+- **library-a:** new feat ([e4534a0](https://github.com/atrocheUMA/agus-monorepoPOC/commit/e4534a0f27e8178c7b66e53cd034a4f39b638ac8))
+
+# [1.1.0](https://github.com/atrocheUMA/agus-monorepoPOC/compare/@uma/library-a@1.0.0...@uma/library-a@1.1.0) (2022-06-24)
+
+### :sparkles: Features
+
+- **library-a:** new feat ([e4534a0](https://github.com/atrocheUMA/agus-monorepoPOC/commit/e4534a0f27e8178c7b66e53cd034a4f39b638ac8))
+
 # 1.0.0 (2022-06-24)
 
 ### :bug: Bug Fixes
