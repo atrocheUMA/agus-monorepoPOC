@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/modules/library-a/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/modules/library-a/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/modules/library-a"],
+      "options": {
+        "jestConfig": "packages/modules/library-a/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/modules/library-a",
+        "tsConfig": "packages/modules/library-a/tsconfig.lib.json",
+        "packageJson": "packages/modules/library-a/package.json",
+        "main": "packages/modules/library-a/src/index.ts",
+        "assets": ["packages/modules/library-a/*.md"]
+      }
+    }
+  },
+  "tags": []
+}
