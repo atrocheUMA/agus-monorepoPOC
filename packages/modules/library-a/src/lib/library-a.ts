@@ -1,5 +1,3 @@
-import { libraryB } from '@uma/libraryB';
-
 interface objeto {
   hello: string;
   bye: string;
@@ -7,9 +5,8 @@ interface objeto {
 }
 
 export function libraryA(): objeto {
-  const asd = libraryB;
   return {
-    hello: 'hola',
+    hello: 'hola2',
     bye: 'chau',
     hi: 'asd',
   };

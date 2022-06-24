@@ -1,4 +1,4 @@
-import { libraryC } from '@uma/library-c';
+import { libraryC } from '@uma/libraryC';
 
 export function libraryB(): object {
   const c = libraryC();
