@@ -1,6 +1,6 @@
 {
-  "name": "@atrocheUMA/library-a",
-  "version": "1.4.0",
+  "name": "@atrocheuma/library-a",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atrocheUMA/agus-monorepoPOC.git"
