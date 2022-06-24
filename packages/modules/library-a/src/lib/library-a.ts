@@ -1,3 +1,3 @@
 export function libraryA(): string {
-  return 'library-a-fixtesting';
+  return 'library-a-fixtesting2';
 }

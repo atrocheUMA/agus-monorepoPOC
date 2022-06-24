@@ -31,11 +31,12 @@
     },
     "release": {
       "builder": "@ng-easy/builders:semantic-release",
-      "outputs": ["{options.outputPath}"],
       "options": {
         "force": true,
-        "dryRun": true,
-        "github": true
+        "dryRun": false,
+        "npm": false,
+        "github": true,
+        "releaseCommitMessage": "chore(${project}): :package: ${project}@${nextRelease.version}"
       },
       "configurations": {
         "local": {
