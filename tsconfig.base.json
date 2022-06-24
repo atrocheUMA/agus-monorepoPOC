@@ -15,9 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@uma/libraryA": ["packages/modules/library-a/src/index.ts"],
-      "@uma/libraryB": ["packages/modules/library-b/src/index.ts"],
-      "@uma/libraryC": ["packages/modules/library-c/src/index.ts"]
+      "@atrocheUMA/libraryA": ["packages/modules/library-a/src/index.ts"],
+      "@atrocheUMA/libraryB": ["packages/modules/library-b/src/index.ts"],
+      "@atrocheUMA/libraryC": ["packages/modules/library-c/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
