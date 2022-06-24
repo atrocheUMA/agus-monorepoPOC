@@ -6,7 +6,7 @@ interface objeto {
 
 export function libraryA(): objeto {
   return {
-    hello: 'holaasd2',
+    hello: 'holaasd23',
     bye: 'chau',
     hi: 'asd',
   };
