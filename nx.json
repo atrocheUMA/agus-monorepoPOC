@@ -21,12 +21,22 @@
     }
   },
   "targetDependencies": {
-    "build": [{ "target": "build", "projects": "dependencies" }],
-    "release": [{ "target": "release", "projects": "dependencies" }]
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ],
+    "release": [
+      {
+        "target": "release",
+        "projects": "dependencies"
+      }
+    ]
   },
-
   "workspaceLayout": {
     "appsDir": "packages/apps",
     "libsDir": "packages/modules"
-  }
+  },
+  "defaultProject": "app1"
 }

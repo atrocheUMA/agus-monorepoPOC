@@ -1,20 +1,20 @@
 {
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/modules/library-a/src",
+  "sourceRoot": "packages/modules/library-c/src",
   "projectType": "library",
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["packages/modules/library-a/**/*.ts"]
+        "lintFilePatterns": ["packages/modules/library-c/**/*.ts"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/modules/library-a"],
+      "outputs": ["coverage/packages/modules/library-c"],
       "options": {
-        "jestConfig": "packages/modules/library-a/jest.config.ts",
+        "jestConfig": "packages/modules/library-c/jest.config.ts",
         "passWithNoTests": true
       }
     },
@@ -22,11 +22,11 @@
       "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/modules/library-a",
-        "tsConfig": "packages/modules/library-a/tsconfig.lib.json",
-        "packageJson": "packages/modules/library-a/package.json",
-        "main": "packages/modules/library-a/src/index.ts",
-        "assets": ["packages/modules/library-a/*.md"]
+        "outputPath": "dist/packages/modules/library-c",
+        "tsConfig": "packages/modules/library-c/tsconfig.lib.json",
+        "packageJson": "packages/modules/library-c/package.json",
+        "main": "packages/modules/library-c/src/index.ts",
+        "assets": ["packages/modules/library-c/*.md"]
       }
     },
     "release": {

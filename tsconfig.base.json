@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@uma/library-c": ["packages/modules/library-c/src/index.ts"],
       "@uma/libraryA": ["packages/modules/library-a/src/index.ts"],
       "@uma/libraryB": ["packages/modules/library-b/src/index.ts"]
     }
