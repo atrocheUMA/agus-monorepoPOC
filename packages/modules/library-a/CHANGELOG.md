@@ -1,3 +1,9 @@
+# [1.3.0](https://github.com/atrocheUMA/agus-monorepoPOC/compare/@atrocheUMA/library-a@1.2.0...@atrocheUMA/library-a@1.3.0) (2022-06-24)
+
+### :sparkles: Features
+
+- **library-a:** testing feat 4 ([0541bdf](https://github.com/atrocheUMA/agus-monorepoPOC/commit/0541bdf17e04ab61a48d7b3097606a7c2a9fe776))
+
 # [1.2.0](https://github.com/atrocheUMA/agus-monorepoPOC/compare/@atrocheUMA/library-a@1.1.0...@atrocheUMA/library-a@1.2.0) (2022-06-24)
 
 ### :sparkles: Features
