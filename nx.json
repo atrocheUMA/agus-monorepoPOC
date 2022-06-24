@@ -15,15 +15,16 @@
     "default": {
       "runner": "nx/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": ["build", "lint", "test", "e2e", "release"],
+        "strictlyOrderedTargets": ["build", "release"]
       }
     }
   },
-  "targetDefaults": {
-    "build": {
-      "dependsOn": ["^build"]
-    }
+  "targetDependencies": {
+    "build": [{ "target": "build", "projects": "dependencies" }],
+    "release": [{ "target": "release", "projects": "dependencies" }]
   },
+  
   "workspaceLayout": {
     "appsDir": "packages/apps",
     "libsDir": "packages/modules"

@@ -28,6 +28,14 @@
         "main": "packages/modules/library-b/src/index.ts",
         "assets": ["packages/modules/library-b/*.md"]
       }
+    },
+    "release": {
+      "builder": "@ng-easy/builders:semantic-release",
+      "configurations": {
+        "local": {
+          "force": true
+        }
+      }
     }
   },
   "tags": []
