@@ -33,7 +33,7 @@
       "builder": "@ng-easy/builders:semantic-release",
       "options": {
         "force": true,
-        "dryRun": true,
+        "dryRun": false,
         "npm": false,
         "github": true
       },
