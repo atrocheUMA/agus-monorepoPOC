@@ -33,10 +33,9 @@
       "builder": "@ng-easy/builders:semantic-release",
       "options": {
         "force": true,
-        "dryRun": false,
-        "npm": true,
-        "github": true,
-        "releaseCommitMessage": "chore: :package: ${project}@${nextRelease.version}"
+        "dryRun": true,
+        "npm": false,
+        "github": true
       },
       "configurations": {
         "local": {
