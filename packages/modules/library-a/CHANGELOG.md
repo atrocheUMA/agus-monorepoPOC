@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/atrocheUMA/agus-monorepoPOC/compare/@atrocheuma/library-a@1.0.1...@atrocheuma/library-a@1.0.2) (2022-06-28)
+
+### :bug: Bug Fixes
+
+- fix ([1253447](https://github.com/atrocheUMA/agus-monorepoPOC/commit/1253447bdcdc25fc9ca7150c5d52faf5aa37c8c9))
+
 ## [1.0.1](https://github.com/atrocheUMA/agus-monorepoPOC/compare/@atrocheuma/library-a@1.0.0...@atrocheuma/library-a@1.0.1) (2022-06-28)
 
 ### :bug: Bug Fixes
