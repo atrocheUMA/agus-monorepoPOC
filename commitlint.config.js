@@ -1,6 +1,6 @@
 module.exports = {
-    extends: ["@commitlint/config-conventional", "@commitlint/config-nx-scopes"],
-    rules:{
-        'body-max-line-length': [2, 'always', 1000],
-    }
-}
+  extends: ['@commitlint/config-conventional'],
+  rules: {
+    'body-max-line-length': [2, 'always', 10],
+  },
+};
