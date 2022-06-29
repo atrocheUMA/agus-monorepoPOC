@@ -35,11 +35,14 @@
         "force": true,
         "dryRun": false,
         "npm": false,
-        "github": true
+        "github": true,
+        "releaseCommitMessage": "chore(release): :package: ${project}@1.0.3 [skip ci]"
       },
       "configurations": {
         "local": {
-          "force": true
+          "force": true,
+          "dryRun": false,
+          "npm": false
         }
       }
     }

@@ -9,7 +9,7 @@ interface objeto {
 export function libraryA(): objeto {
   const axios2 = axios;
   return {
-    hello: 'holaasd234567212a',
+    hello: 'holaasd2345672',
     bye: 'chau',
     hi: 'asd',
   };
